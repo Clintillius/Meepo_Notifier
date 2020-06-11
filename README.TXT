@@ -14,7 +14,7 @@ Basic instructions:
       Line 19 - Gmail (example@gmail.com)
       Line 20 - Gmail password
       Line 24 - Gmail (example@gmail.com)
-      Line 25 - Your cell number and SMS gateway (Example: 1234567890@txt.att.net (If at&t was your cell provider))
+      Line 25 - Your cell number and SMS gateway (Example: 1234567890@txt.att.net (If at&t was your cell provider. Here is a full list. --> https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/))
 9 - Save changes to the index.js file
 10 - In the terminal window, enter 'npm init' (just press enter through the following settings)
 11 - In the terminal window, enter 'npm i puppeteer'
