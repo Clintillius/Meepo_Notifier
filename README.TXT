@@ -2,7 +2,7 @@ Basic instructions:
 
 [WINDOWS INSTRUCTIONS]
 
-1 - Create a gamail account. (or use an existing account)
+1 - Create a gmail account. (or use an existing account)
 2 - Allow "less secure apps" on that gmail account --> https://myaccount.google.com/lesssecureapps
 (If you understand basic coding/scripting, then modify the following instructions to your needs. Otherwise, follow along and it will work.)
 3 - Create a new folder on your desktop named 'meepo100'
