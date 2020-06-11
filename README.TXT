@@ -9,7 +9,7 @@ Basic instructions:
 4 - Download and install Node.JS --> https://nodejs.org/dist/v12.18.0/node-v12.18.0-x86.msi
 5 - Open a 'node.js command prompt' (start menu --> Node.JS --> node.js command prompt)
 6 - In the terminal window, enter 'cd Desktop\meepo100'
-7 - Download the index.js file in this Repo Project and place it in your 'meepo100' folder
+7 - Download the index.js file in this Repo Project and place it in your 'meepo100' folder -->  (https://github.com/Clintillius/Meepo_Notifier/blob/master/index.js)
 8 - Open the index.js file in your preferred editor and enter your created gmail information
       Line 19 - Gmail (example@gmail.com)
       Line 20 - Gmail password
