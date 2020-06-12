@@ -8,7 +8,7 @@ async function main() {
     const browser = await puppeteer.launch()
     const page = await browser.newPage();
     await page.goto('https://www.meepoboard.com/collections/parts-accessories/products/100-mm-replaceable-pu-sleeves-for-hub-motor?variant=31885493141598');
-    const statusCheck = await page.evaluate(() => window.find("sold out"));
+    var statusCheck = await page.evaluate(() => window.find("sold out"));
     
     if (test == true){
       statusCheck = false;
