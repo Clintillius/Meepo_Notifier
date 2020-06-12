@@ -1,6 +1,7 @@
 const puppeteer = require("puppeteer");
 const nodemailer = require('nodemailer');
 const loop = true;
+const test  = false; //To test your setup, change this variable to 'true' and it will force the text to send regardless of the item status. Make sure to set it back to 'false' when you are done!
 
 async function main() {
   if(loop == true){
@@ -8,6 +9,11 @@ async function main() {
     const page = await browser.newPage();
     await page.goto('https://www.meepoboard.com/collections/parts-accessories/products/100-mm-replaceable-pu-sleeves-for-hub-motor?variant=31885493141598');
     const statusCheck = await page.evaluate(() => window.find("sold out"));
+    
+    if (test == true){
+      statusCheck = false;
+    }
+    
     if (statusCheck === true){
       console.log('This item is still sold out...');
     }
