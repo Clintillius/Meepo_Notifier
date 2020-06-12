@@ -11,10 +11,10 @@ Basic instructions:
 6 - In the terminal window, enter 'cd Desktop\meepo100'
 7 - Download the index.js file in this Repo Project and place it in your 'meepo100' folder -->  (https://github.com/Clintillius/Meepo_Notifier/blob/master/index.js)
 8 - Open the index.js file in your preferred editor and enter your created gmail information
-      Line 19 - Gmail (example@gmail.com)
-      Line 20 - Gmail password
-      Line 24 - Gmail (example@gmail.com)
-      Line 25 - Your cell number and SMS gateway (Example: 1234567890@txt.att.net (If at&t was your cell provider. Here is a full list. --> https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/))
+      Line 25 - Gmail (example@gmail.com)
+      Line 26 - Gmail password
+      Line 30 - Gmail (example@gmail.com)
+      Line 31 - Your cell number and SMS gateway (Example: 1234567890@txt.att.net (If at&t was your cell provider. Here is a full list. --> https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/))
 9 - Save changes to the index.js file
 10 - In the terminal window, enter 'npm init' (just press enter through the following settings)
 11 - In the terminal window, enter 'npm i puppeteer'
